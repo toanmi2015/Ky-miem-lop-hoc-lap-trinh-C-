@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std; signed main() {     int a, b;    cin >> a >> b;     if (b % a == 0) {        cout << "YES";    } else {        cout << "NO";    }     return 0;}
