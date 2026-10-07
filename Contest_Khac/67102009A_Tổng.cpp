@@ -1,17 +1,34 @@
 #include <bits/stdc++.h>
+
  using namespace std;
 
+
+
  signed main() {
+
         long long n, S;
+
     cin >> n;
+
      S = 0;
+
      for (long long i = 1;
+
  i <= n;
+
  i++) {
+
          S = S + i;
+
           
-}
-     cout << S;
-     return 0;
 
 }
+
+     cout << S;
+
+     return 0;
+
+
+
+}
+

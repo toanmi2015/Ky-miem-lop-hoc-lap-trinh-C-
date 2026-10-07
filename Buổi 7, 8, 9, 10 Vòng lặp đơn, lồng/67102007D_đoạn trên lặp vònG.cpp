@@ -1,15 +1,30 @@
 #include <bits/stdc++.h>
+
  using namespace std;
 
+
+
  signed main() {
+
         int l, r, i;
+
     cin >> l >> r;
+
      for (i = r;
+
  i >= l;
+
  i--) {
+
          cout << i << " ";
+
         
-}
-        return 0;
 
 }
+
+        return 0;
+
+
+
+}
+

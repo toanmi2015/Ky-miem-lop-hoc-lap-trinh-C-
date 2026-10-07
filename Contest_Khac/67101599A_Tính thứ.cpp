@@ -1,37 +1,74 @@
 #include <iostream>
+
  using namespace std;
 
+
+
  int main() {
+
         long long n;
+
     cin >> n;
+
      if (n % 7 == 0) {
+
          cout << "Thu 2";
+
     
-}
-     if (n % 7 == 1) {
-         cout << "Thu 3";
-    
-}
-     if (n % 7 == 2) {
-         cout << "Thu 4";
-    
-}
-     if (n % 7 == 3) {
-         cout << "Thu 5";
-    
-}
-     if (n % 7 == 4) {
-         cout << "Thu 6";
-    
-}
-     if (n % 7 == 5) {
-         cout << "Thu 7";
-    
-}
-     if (n % 7 == 6) {
-         cout << "CN";
-    
-}
-        return 0;
 
 }
+
+     if (n % 7 == 1) {
+
+         cout << "Thu 3";
+
+    
+
+}
+
+     if (n % 7 == 2) {
+
+         cout << "Thu 4";
+
+    
+
+}
+
+     if (n % 7 == 3) {
+
+         cout << "Thu 5";
+
+    
+
+}
+
+     if (n % 7 == 4) {
+
+         cout << "Thu 6";
+
+    
+
+}
+
+     if (n % 7 == 5) {
+
+         cout << "Thu 7";
+
+    
+
+}
+
+     if (n % 7 == 6) {
+
+         cout << "CN";
+
+    
+
+}
+
+        return 0;
+
+
+
+}
+

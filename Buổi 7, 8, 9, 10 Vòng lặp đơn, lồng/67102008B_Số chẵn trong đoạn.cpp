@@ -1,18 +1,36 @@
 #include <bits/stdc++.h>
+
  using namespace std;
 
+
+
  signed main() {
+
         int l, r;
+
     cin >> l >> r;
+
      for (int i = l;
+
  i <= r;
+
  i++) {
+
                 if (i % 2 == 0) {
+
             cout << i << " ";
+
                 
-}
-    
-}
-         return 0;
 
 }
+
+    
+
+}
+
+         return 0;
+
+
+
+}
+
