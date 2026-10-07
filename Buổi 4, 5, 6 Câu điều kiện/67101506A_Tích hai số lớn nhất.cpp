@@ -1,1 +1,27 @@
-#include <bits/stdc++.h>using namespace std; signed main() {     long long a, b, c;    cin >> a >> b >> c;     long long x = a * b;    long long y = a * c;    long long z = b * c;        if (x >= y && x >= z) {        cout << x;                } else {                        if (y >= z) {                cout << y;                } else {                    cout << z;                    }        }      return 0; }
+#include <bits/stdc++.h>
+using namespace std;
+
+ signed main() {
+     long long a, b, c;
+    cin >> a >> b >> c;
+     long long x = a * b;
+    long long y = a * c;
+    long long z = b * c;
+        if (x >= y && x >= z) {
+        cout << x;
+                
+}
+ else {
+                        if (y >= z) {
+                cout << y;
+                
+}
+ else {
+                    cout << z;
+                    
+}
+        
+}
+      return 0;
+ 
+}

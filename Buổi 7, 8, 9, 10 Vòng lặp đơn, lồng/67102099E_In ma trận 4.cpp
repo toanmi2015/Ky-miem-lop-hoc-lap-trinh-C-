@@ -1,1 +1,46 @@
-#include <bits/stdc++.h> using namespace std; signed main() {        int n, m;    cin >> n >> m;    vector<vector<int>> a(n + 1, vector<int>(m + 1));    int x = 1;     for (int j = 1; j <= m; j++){         if (j % 2 != 0){             for (int i = 1; i <= n; i++){                 a[i][j] = x++;                                }             } else {                                for (int i = n; i >= 1; i--){                     a[i][j] = x++;                  }            }          }     for (int i = 1; i <= n; i++){         for (int j = 1; j <= m; j++){             cout << a[i][j] << " ";         }         cout << "\n";     }                 return 0;}
+#include <bits/stdc++.h>
+ using namespace std;
+
+ signed main() {
+        int n, m;
+    cin >> n >> m;
+    vector<vector<int>> a(n + 1, vector<int>(m + 1));
+    int x = 1;
+     for (int j = 1;
+ j <= m;
+ j++){
+         if (j % 2 != 0){
+             for (int i = 1;
+ i <= n;
+ i++){
+                 a[i][j] = x++;
+                                
+}
+             
+}
+ else {
+                                for (int i = n;
+ i >= 1;
+ i--){
+                     a[i][j] = x++;
+                  
+}
+            
+}
+          
+}
+     for (int i = 1;
+ i <= n;
+ i++){
+         for (int j = 1;
+ j <= m;
+ j++){
+             cout << a[i][j] << " ";
+         
+}
+         cout << "\n";
+     
+}
+                 return 0;
+
+}

@@ -1,1 +1,17 @@
-#include <bits/stdc++.h> using namespace std; signed main() {        long long l, r, S;    cin >> l >> r;     S = 0;     for (long long i = l; i <= r; i++) {         S = S + i * i;          }     cout << S;     return 0;}
+#include <bits/stdc++.h>
+ using namespace std;
+
+ signed main() {
+        long long l, r, S;
+    cin >> l >> r;
+     S = 0;
+     for (long long i = l;
+ i <= r;
+ i++) {
+         S = S + i * i;
+          
+}
+     cout << S;
+     return 0;
+
+}
